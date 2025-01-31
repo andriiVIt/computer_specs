@@ -16,17 +16,17 @@ This project retrieves and displays system information, including:
    git clone https://github.com/andriiVIt/computer_specs.git
    cd computer_specs
 Create and activate a virtual environment:
-sh
- 
-python3 -m venv venv
+
+```sh
+ python3 -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
 Install dependencies:
-sh
+ 
  
 pip install -r requirements.txt
 Run the program:
-sh
+ 
  
 python main.py
  
